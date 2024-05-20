@@ -1,0 +1,26 @@
+PS C:\Users\no11y\OneDrive\ドキュメント\SAMURA_LESSON\git_basic_kadai> git init
+Initialized empty Git repository in C:/Users/no11y/OneDrive/繝峨く繝･繝｡繝ｳ繝・SAMURA_LESSON/git_basic_kadai/.git/
+PS C:\Users\no11y\OneDrive\ドキュメント\SAMURA_LESSON\git_basic_kadai> git add .
+PS C:\Users\no11y\OneDrive\ドキュメント\SAMURA_LESSON\git_basic_kadai> git commit -m "Hello, world!のコミット"
+[main (root-commit) 554b283] Hello, world!縺ｮ繧ｳ繝溘ャ繝
+ 1 file changed, 1 insertion(+)
+ create mode 100644 git_challenge/hello_world.txt
+PS C:\Users\no11y\OneDrive\ドキュメント\SAMURA_LESSON\git_basic_kadai> git add .
+PS C:\Users\no11y\OneDrive\ドキュメント\SAMURA_LESSON\git_basic_kadai> git commit -m "こんにちはのコミット"
+On branch main
+nothing to commit, working tree clean
+PS C:\Users\no11y\OneDrive\ドキュメント\SAMURA_LESSON\git_basic_kadai> git commit -m "こんちにはのコミット"
+On branch main
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   git_challenge/hello_world.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+PS C:\Users\no11y\OneDrive\ドキュメント\SAMURA_LESSON\git_basic_kadai> git add .
+PS C:\Users\no11y\OneDrive\ドキュメント\SAMURA_LESSON\git_basic_kadai> git commit -m "こんちにはのコミット"
+[main 6ae9a42] 縺薙ｓ縺｡縺ｫ縺ｯ縺ｮ繧ｳ繝溘ャ繝
+ 1 file changed, 1 insertion(+)
+PS C:\Users\no11y\OneDrive\ドキュメント\SAMURA_LESSON\git_basic_kadai> git log --oneline
+6ae9a42 (HEAD -> main) こんちにはのコミット
+554b283 Hello, world!のコミット
